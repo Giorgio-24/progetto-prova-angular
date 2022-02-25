@@ -12,6 +12,7 @@ import { UserModule } from './modules/user/user.module'
   declarations: [
     AppComponent,
   ],
+  //^QUI IMPORTO TUTTI I MODULI CHE MI SERVONO.
   imports: [
     BrowserModule,
     AppRoutingModule,
