@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AdminModule } from './modules/admin/admin.module'
 import { DoctorModule } from './modules/doctor/doctor.module'
 import { LoginModule } from './modules/login/login.module';
+import { RegisterModule } from './modules/register/register.module';
 import { UserModule } from './modules/user/user.module'
 
 @NgModule({
@@ -18,8 +19,9 @@ import { UserModule } from './modules/user/user.module'
     AppRoutingModule,
     AdminModule,
     DoctorModule,
-    UserModule,
     LoginModule,
+    RegisterModule,
+    UserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
