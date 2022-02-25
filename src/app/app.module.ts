@@ -3,16 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AdminDashboardComponent } from './admin/admin-dashboard/admin-dashboard.component';
-
+import { AdminModule } from './modules/admin/admin.module'
 @NgModule({
   declarations: [
     AppComponent,
-    AdminDashboardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AdminModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
