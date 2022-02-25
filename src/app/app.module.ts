@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminModule } from './modules/admin/admin.module'
 import { DoctorModule } from './modules/doctor/doctor.module'
+import { LayoutsModule } from './layouts/layouts.module';
 import { LoginModule } from './modules/login/login.module';
 import { RegisterModule } from './modules/register/register.module';
 import { UserModule } from './modules/user/user.module'
@@ -19,6 +20,7 @@ import { UserModule } from './modules/user/user.module'
     AppRoutingModule,
     AdminModule,
     DoctorModule,
+    LayoutsModule,
     LoginModule,
     RegisterModule,
     UserModule,
